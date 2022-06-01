@@ -1,0 +1,51 @@
+.background {
+  background-image: url(../assets/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  .container {
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+
+      .name {
+          display: flex;
+          flex-direction: column;
+        //   gap: 0.1rem;
+        .first {
+          font-size: 3.2rem;
+        }
+        h2 {
+          text-align: center;
+          text-transform: uppercase;
+          color: white;
+        }
+      }
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .mail{
+            p{
+                font-size: 1.5rem;
+                color: white;
+            }
+        }
+        .phone{
+            p{
+                
+                font-size: 1.5rem;
+                color: white;
+            }
+
+        }
+    }
+  }
+}

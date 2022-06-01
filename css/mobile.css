@@ -1,1 +1,123 @@
-/* No CSS *//*# sourceMappingURL=mobile.css.map */
+.background {
+  background-image: url(../assets/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.background .container {
+  padding: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.background .container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+.background .container .logo .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.background .container .logo .name .first {
+  font-size: 3.2rem;
+}
+
+.background .container .logo .name h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.background .container .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+.background .container .contact .mail p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.background .container .contact .phone {
+  line-height: 0px;
+}
+
+.background .container .contact .phone p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.background .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.background .container .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.background .container .post .post-image {
+  border: 3px solid white;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 5px 10px black;
+          box-shadow: 1px 5px 10px black;
+}
+
+.background .container .post .post-header p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.background p {
+  margin-bottom: 0rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: white;
+}
+/*# sourceMappingURL=mobile.css.map */
